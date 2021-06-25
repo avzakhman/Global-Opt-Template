@@ -1,0 +1,33 @@
+.deliverydescr {
+    height: 620px;
+    position: relative;
+    margin-top: -6px;
+    &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200px;
+    height: 268px;
+        &__block {
+            width: 360px;
+            height: 368px;
+            display: flex;
+            flex-direction: column;
+            &__text {
+                margin-left: 2px;
+                h3 {
+                    padding-top: 22px;
+                    font-size: 18px;
+                    text-align: center;
+                }
+                p {
+                    position: relative;
+                    font-family: Roboto;
+                    margin-top: -6px;
+                    text-align: justify;
+                    line-height: 22px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.managers {
+    margin-top: -2px;
+    height: 342px;
+    background: url('../img/background3.png') center/cover no-repeat;
+    color: white;
+    font-family: Roboto;
+    
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 58px;
+        padding-left: 3px;
+    }
+    &__heading {
+        padding-top: 10px;
+        text-align: center;
+        font-size: 26px;
+        font-weight: 700;
+    }
+    &__descr {
+        margin-top: -1px;
+        text-align: center;
+        font-size: 19px;
+        line-height: 27px;
+        font-weight: 300;
+        width: 984px;
+    }
+}

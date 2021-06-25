@@ -1,0 +1,186 @@
+.firstscreen {
+    background: url('../img/background1.png') center/cover no-repeat;
+    height: 680px; 
+    &__header {
+        font-family: Roboto;
+        padding-top: 23px;
+        display: flex;
+        justify-content: space-between;
+        &_one {
+            width: 100px;
+            height: 100px;
+        }
+        &_two {
+            
+            width: 630px;
+            height: 100px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-bottom: 13px;
+        }
+        &__link {
+            color: white;
+            font-size: 15px;
+            &:hover {
+                color: $main-color;
+            }
+        }
+        &_three {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 340px;
+            height: 100px;
+            padding-bottom: 13px;
+            &_text {
+                width: 162px;
+                height: 37px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                justify-content: space-between;
+                
+                &_line {
+                    padding-left: 4px;
+                    font-weight: 300;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: right;
+                    color: white;
+                    width: 100px;
+                    height: 10px;
+                    font-size: 14px;
+                }
+                &_phone {
+                    font-family: Roboto;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    text-align: right;
+                    width: 170px;
+                    height: 19px;
+                    font-size: 19px;
+                    color: white;
+                    font-weight: 500;
+
+                }
+            }
+        }
+    }
+    &__utp {
+        margin-top: 5px;
+        margin-left: 135px;
+        width: 866px;
+        height: 162px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        &_one {
+            margin-top: 3px;
+            margin-left: 2px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 626px;
+            height: 23px;
+            font-size: 24px;
+            font-family: Roboto;
+            font-weight: 300;
+        }
+        &_two {
+            margin-top: 13px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 980px;
+            height: 65px;
+            font-size: 72px;
+            font-family: Roboto Condensed;
+            font-weight: 550;
+            color: $main-color;
+            letter-spacing: -1px;
+        }
+        &_three {
+            margin-top: 4px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 860px;
+            height: 37px;
+            font-size: 42px;
+            font-family: Roboto Condensed;
+            font-weight: 400;
+            letter-spacing: -1px;
+        }
+    }
+    &__divider {
+        margin-top: 41px;
+        margin-left: 167px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 810px;
+        &_line {
+            width: 389px;
+            height: 1px;
+            background-color: #fff;
+        }
+        &_dot {
+            width: 9px;
+            height: 9px;
+            background-color: #fff;
+            border-radius: 100%;
+        }
+    }
+    &__services {
+        position: relative;
+        margin-top: 33px;
+        width: 1140px;
+        display: flex;
+        justify-content: space-between;
+        &__option {
+            position: relative;
+            width: 260px;
+            height: 126px;
+            img {
+                position: absolute;
+                top: 4px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            &_shit {
+                top: 6px;
+                padding-right: 20px;
+            }
+            p{
+                display: block;
+                position: absolute;
+                width: 260px;
+                min-height: 39px;
+                top: 66px;
+                font-family: Roboto;
+                font-weight: 290;
+                font-size: 16px;
+                line-height: 22px;
+                color: #fff;
+                text-align: center;
+            }
+        }
+    }
+    &__button {
+        font-weight: 600;
+        font-size: 15px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 42px;
+        margin-left: 1px;
+        padding-top: 1px;
+        width: 230px;
+        height: 57px;
+    }
+}

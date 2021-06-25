@@ -1,0 +1,109 @@
+.reviews {
+    transition: all 2s;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: -6px;
+    background-color: #fff;
+    width: 1420px;
+    &__header {
+        height: 170px;
+        h3 {
+            margin-left: 2px;
+        }
+    }
+    &__carousel {
+        position: relative;
+        &__item {
+            text-align: center;
+            margin-left: 75px;
+            margin-right: 75px;
+            margin-top: 45px;
+            width: 374px;
+            height: 150px;
+            display: block;
+        }
+        .slick-arrow {
+            position: absolute;
+            background-color: transparent;
+            top: 14%;
+            z-index: 10;
+            font-size: 0px;
+            width: 14px;
+            height: 46px;
+            border: none;
+            outline: none;
+        }
+        .slick-arrow.slick-prev {
+            left: 597px;
+            background-image: url(../../icons/arrow_left.png);
+        }
+        .slick-arrow.slick-next {
+            right: 600px;
+            background-image: url(../../icons/arrow_right.png);
+        }
+    }
+}
+.slick-track {
+    display: flex;
+}
+.slick-list {
+    overflow: hidden;
+}
+.slick-center {
+    padding-left: 113px;
+    padding-right: 113px;
+    margin-top: 0px;
+    height: 245px;
+    .aboba {
+        margin-left: -236px;
+        width: 610px;
+        position: relative;
+        opacity: 1;
+        padding: 0px 2px 2px 2px;
+        img {
+            margin-left: 6px;
+            width: 114px;
+            height: 114px;
+        }
+        h3 {
+            padding-left: 9px;
+            font-family: Roboto;
+            padding-top: 12px;
+            font-size: 19px;
+            letter-spacing: -0.6px;
+            margin-left: 2px;
+        }
+        p {
+            margin-top: -5px;
+            padding-left: 7px;
+            font-family: Roboto;
+            text-align-last: center;
+            font-size: 14px;
+            letter-spacing: -0.1px;
+            line-height: 22px;
+        }
+    }
+}
+.aboba {
+    opacity: 0.2;
+    padding: 2px 0px 0px 2px;
+    img {
+        width: 69px;
+        height: 69px;
+    }
+    h3 {
+        font-family: Roboto;
+        padding-top: 9px;
+        font-size: 11px;
+        letter-spacing: -0.4px;
+    }
+    p {
+        margin-top: -6px;
+        padding-left: 0px;
+        font-family: Roboto;
+        text-align-last: center;
+        font-size: 9px;
+        letter-spacing: -0.2px;
+        line-height: 12px;
+    }
+}

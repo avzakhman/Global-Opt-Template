@@ -1,0 +1,117 @@
+.footer {
+    margin-top: -6px;
+    padding-top: 24px;
+    background-color: #25333c;
+}
+.footer__wrapper {
+    margin: 0 auto;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 14px 26px 16px;
+    &__company {
+        height: 71px;
+        width: 521px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            height: 71px;
+            width: 68px;
+        }
+        h3 {
+            margin-top: 12px;
+            font-family: Roboto;
+            color: white;
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+    &__contacts {
+        width: 340px;
+        height: 45px;
+        margin-top: 14px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__lines {
+            height: 37px;
+            width: 162px;
+            color: white;
+            font-size: Roboto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h3 {
+                text-align: right;
+                font-weight: 300;
+                font-size: 16px;
+                letter-spacing: -0.4px;
+                margin-top: 12px;
+            }
+            p {
+                text-align: right;
+                font-weight: 600;
+                font-size: 20px;
+                letter-spacing: -0.4px;
+                margin-top: -14px;
+            }
+        }
+        &__button {
+            letter-spacing: 0.2px;
+            text-align: center;
+        }
+    }
+    &__divider {
+        margin: 0 auto;
+        width: 1172px;
+        height: 1px;
+        background-color:slategray;
+    }
+    &_second {
+        padding: 18px 15px 29px 17px;
+        margin: 0 auto;
+        width: 1170px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__scratch {
+        font-family: Roboto;
+        color: #a8adb1;
+        font-size: 12px;
+        margin-top: 13px;
+        width: 136px;
+        height: 10px;
+        line-height: 12px;
+        letter-spacing: 0.4px;
+    }
+    &__policy {
+        margin-top: 12px;
+        width: 185px;
+        height: 13px;
+        margin-right: 232px;
+        a {
+            display: flex;
+            margin-top: -4px;
+            justify-content: center;
+            color: $main-color;
+            font-family: Roboto;
+            font-size: 13px;
+            letter-spacing: -0.5px;
+        }
+
+    }
+    &__designedby {
+        height: 32px;
+        width: 138px;
+        display: flex;
+        justify-content: space-between;
+        p {
+            margin-top: 9px;
+            color: white;
+            font-family: Roboto;
+            font-size: 13px;
+            font-weight: 300;
+        }
+    }
+}

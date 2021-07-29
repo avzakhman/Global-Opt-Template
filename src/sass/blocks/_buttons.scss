@@ -10,4 +10,7 @@
     &:hover {
         background-color: #dc5238;
     }
+    &:focus {
+        outline: none;
+    }
 }
